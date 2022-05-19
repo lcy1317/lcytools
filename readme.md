@@ -24,7 +24,7 @@ lcytools.help.fileList()
 ```python
 import lcytools.qqmessage as qqPush
 qqPush.lcy_qqmessage_help()
-qqPush.lcy_qqmessage(qq="1157340882",message = "来一条测试消息~")
+qqPush.lcy_qqmessage(qq="1157***882就是你的QQ",message = "来一条测试消息~")
 ```
 
 然后你的QQ就可以接收到相应的消息推送。
