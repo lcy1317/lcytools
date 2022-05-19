@@ -13,6 +13,12 @@ import lcyutils.help
 lcyutils.help.fileList()
 ```
 
+## 安装lcyutils库
+
+```shell
+pip install lcyutils https://pypi.python.org/simple
+```
+
 # code
 
 ## qqmessage
