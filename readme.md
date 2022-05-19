@@ -15,9 +15,23 @@ lcytools.help.fileList()
 
 # code
 
-## help
+## qqmessage
 
-提供一个查询接口，发送一下当前有哪些东西
+这是个很有意思的工具接口，通过这个接口，只要添加QQ 1794957373为好友之后调用函数就可以直接获得推送的消息。
+
+一个样例：
+
+```python
+import lcytools.qqmessage as qqPush
+qqPush.lcy_qqmessage_help()
+qqPush.lcy_qqmessage(qq="1157340882",message = "来一条测试消息~")
+```
+
+然后你的QQ就可以接收到相应的消息推送。
+
+<img src="https://luochengyu.oss-cn-beijing.aliyuncs.com/img/image-20220519151316793.png" alt="image-20220519151316793" style="zoom:80%;" />
+
+这比较有利于在远端跑程序的时候可以直接调这个函数，通过QQ接收进度推送。不需要不停的连接到远端，在手机上就可以便捷的查看进度了~
 
 ## emailMe
 
@@ -28,3 +42,7 @@ import lcytools.emailMe as eM
 eM.lcy_email(["11158340882@qq.com"],key = "这是一个防止SMTP密码丢掉的自己密码hh")
 ```
 
+
+## help
+
+提供一个查询接口，发送一下当前有哪些东西
