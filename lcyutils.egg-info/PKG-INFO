@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: lcyutils
+Version: 0.0.2
+Summary: LCY Personal Tools
+Home-page: https://github.com/lcy1317/lcytools
+Author: luochengyu
+Author-email: luochengyu1317@163.com
+Maintainer: luochengyu
+Maintainer-email: luochengyu1317@163.com
+License: MIT License
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
 # Personal Tools
 
 写这个个人仓库的目的是为自己的代码提供一些可以直接调用的常用的东西。

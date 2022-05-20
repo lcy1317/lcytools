@@ -1,4 +1,4 @@
-# Personal Tools
+# Personal utils
 
 写这个个人仓库的目的是为自己的代码提供一些可以直接调用的常用的东西。
 
@@ -9,8 +9,8 @@
 查看当前有哪些写好的文件：
 
 ```python
-import lcytools.help
-lcytools.help.fileList()
+import lcyutils.help
+lcyutils.help.fileList()
 ```
 
 # code
@@ -22,7 +22,7 @@ lcytools.help.fileList()
 一个样例：
 
 ```python
-import lcytools.qqmessage as qqPush
+import lcyutils.qqmessage as qqPush
 qqPush.lcy_qqmessage_help()
 qqPush.lcy_qqmessage(qq="1157***882就是你的QQ",message = "来一条测试消息~")
 ```
@@ -38,7 +38,7 @@ qqPush.lcy_qqmessage(qq="1157***882就是你的QQ",message = "来一条测试消
 给自己发送文件，调用方式：
 
 ```python
-import lcytools.emailMe as eM
+import lcyutils.emailMe as eM
 eM.lcy_email(["11158340882@qq.com"],key = "这是一个防止SMTP密码丢掉的自己密码hh")
 ```
 
